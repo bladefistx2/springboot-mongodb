@@ -3,7 +3,7 @@ poc for spring boot + mongoDB
 
 # installation
 1. install mongo or use the latest mongo docker locally, and export the port 27017 (default mongodb port).
-2. create a database named 'local' if not already exists.
+2. create a database named 'local' if not already exists, and create a collection called "stam", same as in Person.
 3. add a document which has generated id + field named "field" for example
 {
   "field": "abc",  
